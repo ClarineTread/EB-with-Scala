@@ -2,10 +2,6 @@ import scala.io.StdIn.{readDouble, readLine}
 class Ebill{
     var name = ""
     var no :Double = 0
-    var prev :Double = 0
-    var cur :Double = 0
-    var type1 :Double = 0
-    var tot: Double = 0
     var bill: Double = 0
     def getdata(gname: String, gno: Double):Unit={
         name = gname
